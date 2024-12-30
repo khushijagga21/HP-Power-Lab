@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.cart-wishlist {
+  display: flex;
+  align-items: center;
+}
+
+.cart-wishlist a,
+.cart-wishlist button {
+  margin-left: 15px;
+}
+
+.wishlist-dropdown {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+}
+
+.wishlist-dropdown.show {
+  display: block;
+}
